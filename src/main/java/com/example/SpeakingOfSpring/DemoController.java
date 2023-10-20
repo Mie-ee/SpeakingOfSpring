@@ -11,7 +11,8 @@ public class DemoController {
     @GetMapping("/greet")
     public List<String> greet() {
         List<String> helloWorldList=new ArrayList<>();
-        helloWorldList.add("Hello world for 1 time");
+        helloWorldList.add("First Spring Boot Work.");
+        helloWorldList.add("Hello world");
         for (int i = 2; i < 7; i++) {
             helloWorldList.add("Hello world for " + i + " times ");
         }
